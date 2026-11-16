@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>City Locator</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Find a City using a City Locator</h1>
+<form id="searchForm">
+        <label for="cityInput">City name</label>
+        <input id="cityInput" type="search"
+        placeholder="Try Manila" required>
+        <button type="submit">Search</button>
+</form>
+<div id="map"></div>
+<p id="status" role="status"></p>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
